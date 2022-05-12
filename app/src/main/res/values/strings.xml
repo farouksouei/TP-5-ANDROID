@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FormsActivity</string>
+    <string name="title_activity_text_field">TextFieldActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>
