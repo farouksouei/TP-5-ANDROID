@@ -97,6 +97,17 @@ fun Inputs() {
             visualTransformation = PasswordVisualTransformation(),
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password)
         )
+
+        OutlinedTextField(value = text3 ,
+            onValueChange = { newText->text3 =newText },
+            modifier= Modifier
+                .padding(all = 8.dp)
+                .fillMaxWidth(),
+            label = { Text(text = "label")},
+            placeholder = { Text(text = "Taper votre password")},
+            visualTransformation = PasswordVisualTransformation(),
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password)
+        )
     }
 }
 
